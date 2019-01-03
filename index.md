@@ -1,17 +1,43 @@
-## Welcome to GitHub Pages
+# See http://help.github.com/ignore-files/ for more about ignoring files.
 
-You can use the [editor on GitHub](https://github.com/ifsglobal/IFSGS/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+# compiled output
+/dist
+/tmp
+/out-tsc
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# dependencies
+/node_modules
 
+# profiling files
+chrome-profiler-events.json
+speed-measure-plugin.json
 
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
-### Jekyll Themes
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ifsglobal/IFSGS/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# System Files
+.DS_Store
+Thumbs.db
